@@ -1,0 +1,8 @@
+### Starting build.
+# Target: boolExpr.ml.depends, tags: { extension:ml, file:boolExpr.ml, ocaml, ocamldep, quiet }
+''ocamldep.opt -modules boolExpr.ml > boolExpr.ml.depends # cached
+# Target: boolExpr.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:boolExpr.cmo, file:boolExpr.ml, implem, ocaml, quiet }
+''ocamlc.opt -c -o boolExpr.cmo boolExpr.ml # cached
+# Target: boolExpr.cmx, tags: { compile, extension:cmx, extension:ml, file:boolExpr.cmx, file:boolExpr.ml, implem, native, ocaml, quiet }
+''ocamlopt.opt -c -o boolExpr.cmx boolExpr.ml
+# Compilation unsuccessful.

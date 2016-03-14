@@ -1,0 +1,3 @@
+i. nsum (-1);; = negative infinite. It won't stop because there is no base case.
+
+ii. since n10 = nsum (-1), it will be same with first question.

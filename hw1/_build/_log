@@ -1,0 +1,8 @@
+### Starting build.
+# Target: hashattack.ml.depends, tags: { extension:ml, file:hashattack.ml, ocaml, ocamldep, quiet }
+''ocamldep.opt -modules hashattack.ml > hashattack.ml.depends
+# Target: hashattack.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:hashattack.cmo, file:hashattack.ml, implem, ocaml, quiet }
+''ocamlc.opt -c -o hashattack.cmo hashattack.ml
+# Target: hashattack.cmx, tags: { compile, extension:cmx, extension:ml, file:hashattack.cmx, file:hashattack.ml, implem, native, ocaml, quiet }
+''ocamlopt.opt -c -o hashattack.cmx hashattack.ml
+# Compilation unsuccessful.
